@@ -16,7 +16,7 @@ for (let i = 0; i < Infinity ; i++) {
     
     if (add == 'del') {
 
-            var pop = ord.pop()
+            var del = ord.spice(key, 1)
 
     }
     
@@ -25,7 +25,7 @@ for (let i = 0; i < Infinity ; i++) {
         break
     }
 }
-console.log(ord);
+console.log(del);
 
 
 
